@@ -25,7 +25,6 @@ pltest(`Login to TestLeaf and Create Account`, async ({loginfix,homefix,accfix }
 
 })
 
-
 pltest(`Verify the user able to find the existing account`, async ({loginfix, accfix }) => {
     console.log(`\n ###### Test - Verify the user able to find the existing account`)
     await loginfix.load_app(process.env.lturl as string)
