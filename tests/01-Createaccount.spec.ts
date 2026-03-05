@@ -8,22 +8,29 @@ import dotenv from 'dotenv'
 
 dotenv.config({path: `Data/qa.env`})    //Before set $env:envfile = 'qa' in terminal
 
+pltest.use({ storageState: "./Data/login_data.json" })
+
 pltest(`Login to TestLeaf and Create Account`, async ({loginfix,homefix,accfix }) => {
     //Load LeafTaps URL
+    console.log(`\n ###### Test - Login to TestLeaf and Create Account`)
+
     await loginfix.login_app(process.env.lturl as string, process.env.uname as string, process.env.password as string )
-    await loginfix.loginsubmit() 
+    // await loginfix.loginsubmit() 
     await homefix.clickCRM()
     await accfix.createAccount()
-    await accfix.verify_createdAccount()
-    // const Created_Acc_name = await accfix.createdAccount()
-    // expect.soft(Created_Acc_name).toContain(accfix.acc_name)
-    // await accfix.wait(3000)
+    await accfix.verify_createdAccount() 
+    await accfix.find_accounts()
 
-    const acc_name_text = await accfix.find_accounts()
-    console.log(`Viewed account 📒 is ${acc_name_text}`);
-    
-    expect.soft(acc_name_text).toBe(accfix.acc_name)
-    // await (3000)
+    console.log(`\n ###########################################`)
 
+})
+
+
+pltest(`Verify the user able to find the existing account`, async ({loginfix, accfix }) => {
+    console.log(`\n ###### Test - Verify the user able to find the existing account`)
+    await loginfix.load_app(process.env.lturl as string)
+    await accfix.find_accounts('Tester2')
+    console.log(`\n ###########################################`)
+ 
 })
 

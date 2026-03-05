@@ -10,30 +10,84 @@ constructor(Lpage:Page){ // constructor method is invoked first
 //Lpage === page (through argument passing)// lppage(global variable) == Lpage asssigned with the value of local variable
 //page(constructor argument) --> Lpage(local) --> lppage(global)
 }
+
+    /** Method to load application URL */
     async load_app(url: string) {
         await this.lpage.goto(url)
     }
-    
-    async fill(selector: string, value : string) {
-        await this.lpage.locator(selector).fill(value)
-    }
-    
-    async page_wait(time: number) { 
-        const waittime = await this.lpage.waitForTimeout(time)
-        return waittime
+
+    /** */
+    async getTitle() : Promise<string> {
+        const title = await this.lpage.title()
+        return title
     }
 
+    /**To Set storage state post successful login*/
+    async storeState(Path: string ) {
+        await this.lpage.context().storageState({path: Path})
+    }
+
+    /** Method to wait for pageload explicitly for mentioned time */
+    async page_wait(time: number) { 
+        await this.lpage.waitForTimeout(time)        
+    }
+
+    /** Method to clear and fill the values in located element */
     async clearAndFill(selector:string, data:string){
        await this.lpage.locator(selector).clear() // "#username"
        await this.lpage.locator(selector).fill(data)       
     }
   
+    /** Method to click the element */
     async click(selector: string) {
+        (await (this.lpage.waitForSelector(selector))).isVisible()
         await this.lpage.locator(selector).click()
     }
 
+    /** Method to select the option from dropdown element */
     async dropdownbyvalue(selector: string, data: string) {
+        (await (this.lpage.waitForSelector(selector))).isVisible()
         await this.lpage.selectOption(selector, {value: data})
     }
+
+   /** Method to get the accessibility role by link element and perform click action*/
+    async clickbyRole(role: any, data: string) {
+        await this.lpage.getByRole(role, {name:data, exact: true}).click()
+    }
+
+    /** Method to get the accessibility role by textbox element and fill value*/
+    async fillbyRole(
+        role: any,
+        data: string,
+        value: string,
+        index?: any) {
+        if (index === undefined) { 
+        await this.lpage.getByRole(role,{name: data}).nth(0).fill(value)
+        }
+        else {
+            await this.lpage.getByRole(role,{name: data}).nth(index).fill(value)
+        }
+    }
+
+    // async getbyRole(role: any, data : string){
+    //     await this.lpage.getByRole(role, {name: data} ).innerText()
+    // }
+
+
+    /** Method to get the inner text value from the element and return*/
+    async getInnerText(selector: string) : Promise<string>{
+        (await (this.lpage.waitForSelector(selector))).isVisible()
+        return await this.lpage.locator(selector).innerText()
+    }
+
+    async textContains(selector:string, value: string) : Promise<boolean> {
+        (await (this.lpage.waitForSelector(selector))).isVisible()
+        const text = await this.getInnerText(selector)
+        if (text.includes(value)) {
+            return true
+        }
+        else { return false }
+    }
+
 
 }

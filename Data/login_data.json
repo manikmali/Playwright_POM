@@ -1,0 +1,125 @@
+{
+  "cookies": [
+    {
+      "name": "JSESSIONID",
+      "value": "07974AD449962BFEC3273E6E8AE4A5C3.jvm1",
+      "domain": "leaftaps.com",
+      "path": "/opentaps",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OFBiz.Visitor",
+      "value": "1734370",
+      "domain": "leaftaps.com",
+      "path": "/",
+      "expires": 1804147840.426603,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SM",
+      "value": "T",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MUID",
+      "value": "223414F3F910630F23E203E2FD106DE6",
+      "domain": ".clarity.ms",
+      "path": "/",
+      "expires": 1806300271.4115,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CLID",
+      "value": "9be108bbef6647229eec91e8c069df1a.20260303.20270304",
+      "domain": "www.clarity.ms",
+      "path": "/",
+      "expires": 1804140269.463253,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_clck",
+      "value": "jkxt27%5E2%5Eg42%5E0%5E2253",
+      "domain": ".leaftaps.com",
+      "path": "/",
+      "expires": 1804140270,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1996978660.1772604271",
+      "domain": ".leaftaps.com",
+      "path": "/",
+      "expires": 1772698242,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat_gtag_UA_241053063_1",
+      "value": "1",
+      "domain": ".leaftaps.com",
+      "path": "/",
+      "expires": 1772611901,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_BFM17W6LPR",
+      "value": "GS2.1.s1772611841$o3$g1$t1772611842$j59$l0$h0",
+      "domain": ".leaftaps.com",
+      "path": "/",
+      "expires": 1807171842.366716,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_XC5DRQT2CH",
+      "value": "GS2.1.s1772611841$o3$g1$t1772611842$j59$l0$h0",
+      "domain": ".leaftaps.com",
+      "path": "/",
+      "expires": 1807171842.381843,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.1141300188.1772517326",
+      "domain": ".leaftaps.com",
+      "path": "/",
+      "expires": 1807171842.407651,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_clsk",
+      "value": "1ncnzps%5E1772611843096%5E1%5E1%5En.clarity.ms%2Fcollect",
+      "domain": ".leaftaps.com",
+      "path": "/",
+      "expires": 1772698243,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
