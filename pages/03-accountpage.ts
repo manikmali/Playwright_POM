@@ -30,7 +30,7 @@ export class account extends homePage {
     // }
 
     async verify_createdAccount(){
-        const Created_Acc_name = await this.getInnerText(locators.Account.CreatedAccName)
+        const Created_Acc_name = await this.getInnerText(locators.Account.CreatedAccName, 'Created Account Name')
         if (expect.soft(Created_Acc_name.match(this.acc_name)) ) {
         console.log(`\n📒 - Verified the Newly created Account`);     
         }
@@ -67,19 +67,17 @@ export class account extends homePage {
         /**fillbyRole(role -- Accessible role, data --Accessible option, value -- Value to be filled, 
          * index -- index value to mention if it has more elements )**/
         await this.fillbyRole('textbox', locators.Account.accountname.name, ac_name,1 )
-        console.log('\nAccount names were entered to search...');    
+        console.log(`\nAccount name -> ${ac_name} has been entered to search...`);    
 
 
         await this.clickbyRole('button', locators.Account.findaccbtn.name)
         console.log('\nFind accounts button were clicked');    
         await this.page_wait(3000)
 
-        const acc_name_text =  await this.getInnerText(locators.Account.find_AccName)
+        const acc_name_text =  await this.getInnerText(locators.Account.find_AccName, 'Searched Account Name')
         console.log(`\nViewed account 📒 is ${acc_name_text}`);
         expect.soft(acc_name_text).toBe(ac_name)
-        await this.page_wait(3000)
-
-         
+        await this.page_wait(3000)         
     }
 
 

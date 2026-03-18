@@ -40,13 +40,13 @@ constructor(Lpage:Page){ // constructor method is invoked first
   
     /** Method to click the element */
     async click(selector: string) {
-        (await (this.lpage.waitForSelector(selector))).isVisible()
+        (await this.lpage.waitForSelector(selector)).isVisible()
         await this.lpage.locator(selector).click()
     }
 
     /** Method to select the option from dropdown element */
     async dropdownbyvalue(selector: string, data: string) {
-        (await (this.lpage.waitForSelector(selector))).isVisible()
+        (await this.lpage.waitForSelector(selector)).isVisible()
         await this.lpage.selectOption(selector, {value: data})
     }
 
@@ -55,7 +55,14 @@ constructor(Lpage:Page){ // constructor method is invoked first
         await this.lpage.getByRole(role, {name:data, exact: true}).click()
     }
 
-    /** Method to get the accessibility role by textbox element and fill value*/
+    /** Method to get the accessibility role by textbox element and fill value
+     * * Interacts with a web element based on the given attribute and action.    * 
+    * @param {string} role - The type of roles to use ("button", "link").
+    * @param {string} data - The data for Name attribute as {name: data}.
+    * @param {string} value - The value to be filled in the field.
+    * @param {string} [index] - The index to be provided if matches with more elements" (optional).
+    * @throws {Error} Throws an error if an unsupported attribute or action is used.
+    */    
     async fillbyRole(
         role: any,
         data: string,
@@ -75,14 +82,20 @@ constructor(Lpage:Page){ // constructor method is invoked first
 
 
     /** Method to get the inner text value from the element and return*/
-    async getInnerText(selector: string) : Promise<string>{
-        (await (this.lpage.waitForSelector(selector))).isVisible()
+    async getInnerText(selector: string, element_name: string) : Promise<string>{
+        try {   
+        await this.lpage.waitForSelector(selector, { state: 'visible', timeout: 3000 })
         return await this.lpage.locator(selector).innerText()
+        } catch (error) { 
+            console.log(`Locator (or) value of the ${element_name} is not found`)
+            console.log(error)
+            return '-- Not Found --'
+        }
     }
 
     async textContains(selector:string, value: string) : Promise<boolean> {
-        (await (this.lpage.waitForSelector(selector))).isVisible()
-        const text = await this.getInnerText(selector)
+        await this.lpage.waitForSelector(selector,{ state: 'visible', timeout: 3000 })
+        const text = await this.getInnerText(selector, value)
         if (text.includes(value)) {
             return true
         }

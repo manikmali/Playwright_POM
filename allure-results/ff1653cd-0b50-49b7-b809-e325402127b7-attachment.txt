@@ -1,0 +1,67 @@
+
+ ###### Test - Verify the user able to find the existing account
+Actual title is Leaftaps - TestLeaf Automation Platform
+
+CRM link has been clicked from home page
+
+Account name -> Tester2 has been entered to search...
+
+Find accounts button were clicked
+Locator (or) value of the Searched Account Name is not found
+page.waitForSelector: Timeout 3000ms exceeded.
+Call log:
+  - waiting for locator('xpath=(//table/tbody/tr/td[3]/div/a)[1]') to be visible
+
+    at account.getInnerText (C:\Playwright Workspace\POM-JAN-26\utility\playwrightwrapper.ts:87:26)
+    at account.find_accounts (C:\Playwright Workspace\POM-JAN-26\pages\03-accountpage.ts:77:43)
+    at C:\Playwright Workspace\POM-JAN-26\tests\01-Createaccount.spec.ts:32:5 {
+  name: 'TimeoutError',
+  Symbol(step): {
+    location: {
+      file: 'C:\\Playwright Workspace\\POM-JAN-26\\utility\\playwrightwrapper.ts',
+      line: 87,
+      column: 26,
+      function: 'account.getInnerText'
+    },
+    category: 'pw:api',
+    title: "Wait for selector locator('xpath=(//table/tbody/tr/td[3]/div/a)[1]')",
+    apiName: 'page.waitForSelector',
+    params: {
+      selector: '(//table/tbody/tr/td[3]/div/a)[1]',
+      state: 'visible',
+      timeout: 3000
+    },
+    group: undefined,
+    stepId: 'pw:api@49',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@49',
+      _title: "Wait for selector locator('xpath=(//table/tbody/tr/td[3]/div/a)[1]')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1773811807341,
+    error: {
+      message: 'TimeoutError: page.waitForSelector: Timeout 3000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('xpath=(//table/tbody/tr/td[3]/div/a)[1]') to be visible\x1B[22m\n",
+      stack: 'TimeoutError: page.waitForSelector: Timeout 3000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('xpath=(//table/tbody/tr/td[3]/div/a)[1]') to be visible\x1B[22m\n" +
+        '\n' +
+        '    at account.getInnerText (C:\\Playwright Workspace\\POM-JAN-26\\utility\\playwrightwrapper.ts:87:26)\n' +
+        '    at account.find_accounts (C:\\Playwright Workspace\\POM-JAN-26\\pages\\03-accountpage.ts:77:43)\n' +
+        '    at C:\\Playwright Workspace\\POM-JAN-26\\tests\\01-Createaccount.spec.ts:32:5',
+      cause: undefined
+    }
+  }
+}
+
+Viewed account 📒 is -- Not Found --
+
+ ###########################################

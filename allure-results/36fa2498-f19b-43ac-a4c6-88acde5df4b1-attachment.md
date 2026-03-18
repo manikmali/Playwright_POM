@@ -1,0 +1,458 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - menubar [ref=e9]:
+      - textbox [ref=e10]
+      - table [ref=e11]:
+        - rowgroup [ref=e12]:
+          - row "CRM/SFA Docs Wiki eCommerce" [ref=e13]:
+            - menuitem "CRM/SFA" [ref=e14]
+            - menuitem "Docs Wiki" [ref=e15]:
+              - link "Docs Wiki" [ref=e16] [cursor=pointer]:
+                - /url: http://www.opentaps.org/docs/?externalLoginKey=EL317304884929
+            - menuitem "eCommerce" [ref=e17]:
+              - link "eCommerce" [ref=e18] [cursor=pointer]:
+                - /url: /ecommerce/control/main?externalLoginKey=EL317304884929
+    - link "opentaps CRM" [ref=e20] [cursor=pointer]:
+      - /url: /opentaps/
+      - img "opentaps CRM" [ref=e21]
+  - generic [ref=e22]:
+    - generic [ref=e23]:
+      - text: Demosalesmanager |
+      - link "Profile" [ref=e24] [cursor=pointer]:
+        - /url: /crmsfa/control/myProfile
+      - text: "|"
+      - link "Shortcuts" [ref=e25] [cursor=pointer]:
+        - /url: javascript:showKeyboardShortcutsHelp();
+      - text: "|"
+      - link "Logout" [ref=e26] [cursor=pointer]:
+        - /url: /crmsfa/control/logout
+    - generic [ref=e27]:
+      - table [ref=e36]:
+        - rowgroup [ref=e37]:
+          - row "Search" [ref=e38]:
+            - cell [ref=e39]:
+              - textbox [ref=e43]
+            - cell "Search" [ref=e44]:
+              - table [ref=e48] [cursor=pointer]:
+                - rowgroup [ref=e49]:
+                  - row "Search" [ref=e50]:
+                    - cell [ref=e51]
+                    - cell "Search" [ref=e53]:
+                      - emphasis [ref=e54]:
+                        - button "Search" [ref=e55]
+                    - cell [ref=e56]
+      - link "Live help for this page on opentaps Wiki" [ref=e58] [cursor=pointer]:
+        - /url: http://www.opentaps.org/docs/index.php?title=Find_Accounts_Screen&oldid=0
+        - img "Live help for this page on opentaps Wiki" [ref=e59]
+      - link "Get help from an opentaps Partner" [ref=e60] [cursor=pointer]:
+        - /url: http://www.opentaps.org/contact
+        - img "Get help from an opentaps Partner" [ref=e61]
+  - list:
+    - listitem [ref=e63]:
+      - link "My Home" [ref=e69] [cursor=pointer]:
+        - /url: /crmsfa/control/myHomeMain
+    - listitem [ref=e70]:
+      - link "Leads" [ref=e76] [cursor=pointer]:
+        - /url: /crmsfa/control/leadsMain
+    - listitem [ref=e77]:
+      - link "Contacts" [ref=e83] [cursor=pointer]:
+        - /url: /crmsfa/control/contactsMain
+    - listitem [ref=e84]:
+      - link "Accounts" [ref=e90] [cursor=pointer]:
+        - /url: /crmsfa/control/accountsMain
+    - listitem [ref=e91]:
+      - link "Cases" [ref=e97] [cursor=pointer]:
+        - /url: /crmsfa/control/casesMain
+    - listitem [ref=e98]:
+      - link "Activities" [ref=e104] [cursor=pointer]:
+        - /url: /crmsfa/control/activitiesMain
+    - listitem [ref=e105]:
+      - link "Opportunities" [ref=e111] [cursor=pointer]:
+        - /url: /crmsfa/control/opportunitiesMain
+    - listitem [ref=e112]:
+      - link "Quotes" [ref=e118] [cursor=pointer]:
+        - /url: /crmsfa/control/quotesMain
+    - listitem [ref=e119]:
+      - link "Orders" [ref=e125] [cursor=pointer]:
+        - /url: /crmsfa/control/ordersMain
+    - listitem [ref=e126]:
+      - link "Forecasts" [ref=e132] [cursor=pointer]:
+        - /url: /crmsfa/control/forecastsMain
+    - listitem [ref=e133]:
+      - link "Marketing" [ref=e139] [cursor=pointer]:
+        - /url: /crmsfa/control/marketingMain
+    - listitem [ref=e140]:
+      - link "Partners" [ref=e146] [cursor=pointer]:
+        - /url: /crmsfa/control/partnersMain
+    - listitem [ref=e147]:
+      - link "Teams" [ref=e153] [cursor=pointer]:
+        - /url: /crmsfa/control/teamsMain
+    - listitem [ref=e154]:
+      - link "Reports" [ref=e160] [cursor=pointer]:
+        - /url: /crmsfa/control/viewDashboard
+    - listitem [ref=e161]:
+      - link "opentaps" [ref=e167] [cursor=pointer]:
+        - /url: /opentaps?externalLoginKey=EL832232668642
+  - table [ref=e170]:
+    - rowgroup [ref=e171]:
+      - 'row "Last Viewed: Auto Loan Accounttransmit… Ranjini R (Testleaf) Ranjni R (Testleaf) Ranjini R (Testleaf) Vishveshwar Duraiswamy (N… Mahesh Raju (Mahesh Testl… Ranjini R (Testleaf)" [ref=e172]':
+        - 'cell "Last Viewed: Auto Loan Accounttransmit… Ranjini R (Testleaf) Ranjni R (Testleaf) Ranjini R (Testleaf) Vishveshwar Duraiswamy (N… Mahesh Raju (Mahesh Testl… Ranjini R (Testleaf)" [ref=e173]':
+          - list [ref=e174]:
+            - listitem [ref=e175]:
+              - generic [ref=e176]: "Last Viewed:"
+            - listitem [ref=e177]:
+              - link "Auto Loan Accounttransmit…" [ref=e178] [cursor=pointer]:
+                - /url: /crmsfa/control/viewAccount?partyId=11206
+            - listitem [ref=e179]:
+              - link "Ranjini R (Testleaf)" [ref=e180] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead?partyId=11205
+            - listitem [ref=e181]:
+              - link "Ranjni R (Testleaf)" [ref=e182] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead?partyId=11204
+            - listitem [ref=e183]:
+              - link "Ranjini R (Testleaf)" [ref=e184] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead?partyId=11203
+            - listitem [ref=e185]:
+              - link "Vishveshwar Duraiswamy (N…" [ref=e186] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead?partyId=10136
+            - listitem [ref=e187]:
+              - link "Mahesh Raju (Mahesh Testl…" [ref=e188] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead?partyId=11202
+            - listitem [ref=e189]:
+              - link "Ranjini R (Testleaf)" [ref=e190] [cursor=pointer]:
+                - /url: /crmsfa/control/viewLead?partyId=11201
+  - generic [ref=e192]:
+    - generic [ref=e193]:
+      - generic [ref=e194]:
+        - generic [ref=e199]: Shortcuts
+        - list [ref=e201]:
+          - listitem [ref=e202]:
+            - link "My Teams' Accounts" [ref=e203] [cursor=pointer]:
+              - /url: /crmsfa/control/myAccounts
+          - listitem [ref=e204]:
+            - link "Create Account" [ref=e205] [cursor=pointer]:
+              - /url: /crmsfa/control/createAccountForm
+          - listitem [ref=e206]:
+            - link "Find Accounts" [ref=e207] [cursor=pointer]:
+              - /url: /crmsfa/control/findAccounts
+          - listitem [ref=e208]:
+            - link "Merge Accounts" [ref=e209] [cursor=pointer]:
+              - /url: /crmsfa/control/mergeAccountsForm
+      - generic [ref=e212]:
+        - generic [ref=e216] [cursor=pointer]: Create Account
+        - generic [ref=e218]:
+          - generic [ref=e223]:
+            - generic [ref=e224]:
+              - text: "Account Name:"
+              - textbox "Account Name:" [ref=e226]
+            - generic [ref=e229]:
+              - text: "Phone Number:"
+              - table [ref=e233]:
+                - rowgroup [ref=e234]:
+                  - row "1" [ref=e235]:
+                    - cell "1" [ref=e236]:
+                      - textbox [ref=e240]: "1"
+                    - cell [ref=e241]:
+                      - textbox [ref=e245]
+                    - cell [ref=e246]:
+                      - textbox [ref=e250]
+            - generic [ref=e251]:
+              - text: "E-Mail Address:"
+              - textbox "E-Mail Address:" [ref=e253]
+          - table [ref=e260]:
+            - rowgroup [ref=e261]:
+              - row "Create Account" [ref=e262]:
+                - cell "Create Account" [ref=e263]:
+                  - table [ref=e264] [cursor=pointer]:
+                    - rowgroup [ref=e265]:
+                      - row "Create Account" [ref=e266]:
+                        - cell [ref=e267]
+                        - cell "Create Account" [ref=e269]:
+                          - emphasis [ref=e270]:
+                            - button "Create Account" [ref=e271]
+                        - cell [ref=e272]
+      - generic [ref=e276]:
+        - generic [ref=e280] [cursor=pointer]: Create Contact
+        - generic [ref=e282]:
+          - generic [ref=e287]:
+            - generic [ref=e288]:
+              - text: "First name:"
+              - textbox "First name:" [ref=e290]
+            - generic [ref=e291]:
+              - text: "Last name:"
+              - textbox "Last name:" [ref=e293]
+            - generic [ref=e294]:
+              - text: "Account:"
+              - generic [ref=e295]:
+                - generic:
+                  - textbox "Account:" [ref=e296]: Type text
+                  - img [ref=e297] [cursor=pointer]
+            - generic [ref=e300]:
+              - text: "Phone Number:"
+              - table [ref=e304]:
+                - rowgroup [ref=e305]:
+                  - row "1" [ref=e306]:
+                    - cell "1" [ref=e307]:
+                      - textbox [ref=e311]: "1"
+                    - cell [ref=e312]:
+                      - textbox [ref=e316]
+                    - cell [ref=e317]:
+                      - textbox [ref=e321]
+            - generic [ref=e322]:
+              - text: "E-Mail Address:"
+              - textbox "E-Mail Address:" [ref=e324]
+          - table [ref=e331]:
+            - rowgroup [ref=e332]:
+              - row "Create Contact" [ref=e333]:
+                - cell "Create Contact" [ref=e334]:
+                  - table [ref=e335] [cursor=pointer]:
+                    - rowgroup [ref=e336]:
+                      - row "Create Contact" [ref=e337]:
+                        - cell [ref=e338]
+                        - cell "Create Contact" [ref=e340]:
+                          - emphasis [ref=e341]:
+                            - button "Create Contact" [ref=e342]
+                        - cell [ref=e343]
+      - generic [ref=e347]:
+        - generic [ref=e351] [cursor=pointer]: Create Case
+        - generic [ref=e353]:
+          - generic [ref=e358]:
+            - generic [ref=e359]:
+              - text: "Subject:"
+              - textbox "Subject:" [ref=e361]
+            - generic [ref=e362]:
+              - text: "Account:"
+              - generic [ref=e363]:
+                - generic:
+                  - textbox "Account:" [ref=e364]: Type text
+                  - img [ref=e365] [cursor=pointer]
+          - table [ref=e372]:
+            - rowgroup [ref=e373]:
+              - row "Create Case" [ref=e374]:
+                - cell "Create Case" [ref=e375]:
+                  - table [ref=e376] [cursor=pointer]:
+                    - rowgroup [ref=e377]:
+                      - row "Create Case" [ref=e378]:
+                        - cell [ref=e379]
+                        - cell "Create Case" [ref=e381]:
+                          - emphasis [ref=e382]:
+                            - button "Create Case" [ref=e383]
+                        - cell [ref=e384]
+      - generic [ref=e392] [cursor=pointer]: Create Lead
+      - generic [ref=e396]:
+        - generic [ref=e400] [cursor=pointer]: Create Opportunity
+        - generic [ref=e402]:
+          - generic [ref=e407]:
+            - generic [ref=e408]:
+              - text: "Account Or Lead:"
+              - generic [ref=e409]:
+                - generic:
+                  - textbox "Account Or Lead:" [ref=e410]: Type text
+                  - img [ref=e411] [cursor=pointer]
+            - generic [ref=e412]:
+              - text: "Opportunity Name:"
+              - textbox "Opportunity Name:" [ref=e414]
+            - generic [ref=e415]:
+              - text: "Initial Stage:"
+              - generic [ref=e416]:
+                - generic:
+                  - textbox "Initial Stage:" [ref=e417]: Prospect
+                  - img [ref=e418] [cursor=pointer]
+            - generic [ref=e419]:
+              - text: "Opportunity Amount:"
+              - textbox "Opportunity Amount:" [ref=e421]
+            - generic [ref=e422]:
+              - text: "Estimated Close Date:"
+              - generic [ref=e423]:
+                - generic:
+                  - textbox "Estimated Close Date:" [ref=e424]
+                  - img [ref=e425] [cursor=pointer]
+          - table [ref=e432]:
+            - rowgroup [ref=e433]:
+              - row "Create Opportunity" [ref=e434]:
+                - cell "Create Opportunity" [ref=e435]:
+                  - table [ref=e436] [cursor=pointer]:
+                    - rowgroup [ref=e437]:
+                      - row "Create Opportunity" [ref=e438]:
+                        - cell [ref=e439]
+                        - cell "Create Opportunity" [ref=e441]:
+                          - emphasis [ref=e442]:
+                            - button "Create Opportunity" [ref=e443]
+                        - cell [ref=e444]
+    - generic [ref=e446]:
+      - generic [ref=e452]: Find Accounts
+      - generic [ref=e462]:
+        - generic [ref=e463]:
+          - generic [ref=e467]: Find by
+          - generic [ref=e475]:
+            - generic [ref=e478]:
+              - list [ref=e481]:
+                - listitem [ref=e482]:
+                  - link "Name and ID" [ref=e483] [cursor=pointer]:
+                    - /url: "#"
+                    - emphasis [ref=e484]:
+                      - generic [ref=e486]: Name and ID
+                - listitem [ref=e487]:
+                  - link "Phone" [ref=e488] [cursor=pointer]:
+                    - /url: "#"
+                    - emphasis [ref=e489]:
+                      - generic [ref=e491]: Phone
+                - listitem [ref=e492]:
+                  - link "Email" [ref=e493] [cursor=pointer]:
+                    - /url: "#"
+                    - emphasis [ref=e494]:
+                      - generic [ref=e496]: Email
+                - listitem [ref=e497]:
+                  - link "Advanced" [ref=e498] [cursor=pointer]:
+                    - /url: "#"
+                    - emphasis [ref=e499]:
+                      - generic [ref=e501]: Advanced
+                - listitem
+              - generic [ref=e506]:
+                - generic [ref=e507]:
+                  - generic [ref=e508]: "Account ID:"
+                  - textbox "Account ID:" [ref=e510]
+                - generic [ref=e511]:
+                  - generic [ref=e512]: "Account Name:"
+                  - textbox "Account Name:" [ref=e514]: Tester2
+            - table [ref=e518]:
+              - rowgroup [ref=e519]:
+                - row "Find Accounts" [ref=e520]:
+                  - cell "Find Accounts" [ref=e521]:
+                    - table [ref=e522] [cursor=pointer]:
+                      - rowgroup [ref=e523]:
+                        - row "Find Accounts" [ref=e524]:
+                          - cell [ref=e525]
+                          - cell "Find Accounts" [ref=e527]:
+                            - emphasis [ref=e528]:
+                              - button "Find Accounts" [active] [ref=e529]
+                          - cell [ref=e530]
+        - generic [ref=e541]:
+          - generic [ref=e545]: Account List
+          - generic [ref=e550]:
+            - generic [ref=e553]:
+              - table [ref=e557]:
+                - rowgroup [ref=e558]:
+                  - row "Account ID Account Name City State/Province Phone Number E-Mail Address" [ref=e559]:
+                    - cell "Account ID" [ref=e560]:
+                      - generic [ref=e561]:
+                        - text: Account ID
+                        - img [ref=e562]
+                    - cell "Account Name" [ref=e563]:
+                      - generic [ref=e564]: Account Name
+                    - cell "City" [ref=e565]:
+                      - generic [ref=e566]: City
+                    - cell "State/Province" [ref=e567]:
+                      - generic [ref=e568]: State/Province
+                    - cell "Phone Number" [ref=e569]:
+                      - generic [ref=e570]: Phone Number
+                    - cell "E-Mail Address" [ref=e571]:
+                      - generic [ref=e572]: E-Mail Address
+              - generic:
+                - link:
+                  - /url: "#"
+            - generic [ref=e574]:
+              - table [ref=e575]:
+                - rowgroup [ref=e576]:
+                  - row "Page 1 of 1 20 records per page. Export To Excel" [ref=e577]:
+                    - cell [ref=e578]:
+                      - table [ref=e579]:
+                        - rowgroup [ref=e580]:
+                          - row [ref=e581]:
+                            - cell [ref=e582]
+                            - cell [ref=e584]:
+                              - emphasis [ref=e585]:
+                                - button [ref=e586]
+                            - cell [ref=e587]
+                    - cell [ref=e589]:
+                      - table [ref=e590]:
+                        - rowgroup [ref=e591]:
+                          - row [ref=e592]:
+                            - cell [ref=e593]
+                            - cell [ref=e595]:
+                              - emphasis [ref=e596]:
+                                - button [ref=e597]
+                            - cell [ref=e598]
+                    - cell [ref=e600]
+                    - cell "Page" [ref=e602]
+                    - cell "1" [ref=e603]:
+                      - textbox [ref=e604]: "1"
+                    - cell "of 1" [ref=e605]
+                    - cell [ref=e606]
+                    - cell [ref=e608]:
+                      - table [ref=e609]:
+                        - rowgroup [ref=e610]:
+                          - row [ref=e611]:
+                            - cell [ref=e612]
+                            - cell [ref=e614]:
+                              - emphasis [ref=e615]:
+                                - button [ref=e616]
+                            - cell [ref=e617]
+                    - cell [ref=e619]:
+                      - table [ref=e620]:
+                        - rowgroup [ref=e621]:
+                          - row [ref=e622]:
+                            - cell [ref=e623]
+                            - cell [ref=e625]:
+                              - emphasis [ref=e626]:
+                                - button [ref=e627]
+                            - cell [ref=e628]
+                    - cell [ref=e630]
+                    - cell [ref=e632]:
+                      - table [ref=e633] [cursor=pointer]:
+                        - rowgroup [ref=e634]:
+                          - row [ref=e635]:
+                            - cell [ref=e636]
+                            - cell [ref=e638]:
+                              - emphasis [ref=e639]:
+                                - button [ref=e640]
+                            - cell [ref=e641]
+                    - cell "20" [ref=e643]:
+                      - textbox [ref=e644]: "20"
+                    - cell "records per page." [ref=e645]
+                    - cell [ref=e646]
+                    - cell "Export To Excel" [ref=e648]:
+                      - table [ref=e649] [cursor=pointer]:
+                        - rowgroup [ref=e650]:
+                          - row "Export To Excel" [ref=e651]:
+                            - cell [ref=e652]
+                            - cell "Export To Excel" [ref=e654]:
+                              - emphasis [ref=e655]:
+                                - button "Export To Excel" [ref=e656]
+                            - cell [ref=e657]
+              - generic [ref=e659]: No records to display
+      - generic [ref=e663]:
+        - generic [ref=e664]:
+          - link "Opentaps Open Source ERP + CRM" [ref=e665] [cursor=pointer]:
+            - /url: http://www.opentaps.org
+          - text: 1.5.0. opentaps is a trademark of
+          - link "Open Source Strategies, Inc." [ref=e666] [cursor=pointer]:
+            - /url: http://www.opentaps.org
+        - generic [ref=e667]:
+          - text: This application is free software under the terms of the
+          - link "Affero General Public License v3" [ref=e668] [cursor=pointer]:
+            - /url: http://www.opentaps.org/about-opentaps/licensing
+          - text: WITH ABSOLUTELY NO WARRANTY.
+          - text: It is also available under
+          - link "commercial licenses" [ref=e669] [cursor=pointer]:
+            - /url: http://www.opentaps.org/services-support/professional-edition
+          - text: from Open Source Strategies, Inc.
+        - generic [ref=e670]:
+          - text: (c)
+          - link "Open Source Strategies, Inc." [ref=e671] [cursor=pointer]:
+            - /url: http://www.opentaps.org
+        - generic [ref=e672]:
+          - text: To learn more about opentaps, follow us on
+          - link "Facebook" [ref=e673] [cursor=pointer]:
+            - /url: http://www.facebook.com/pages/opentaps/285070770315
+            - img "Facebook" [ref=e674]
+          - text: And
+          - link "twitter" [ref=e675] [cursor=pointer]:
+            - /url: http://twitter.com/opentaps
+            - img "twitter" [ref=e676]
+  - iframe
+  - iframe
+```

@@ -1,0 +1,22 @@
+
+ ###### Test - Login to TestLeaf and Create Account
+
+Logged in submitted with credentials
+Entered to home page to click CRM
+
+CRM link has been clicked from home page
+
+Account Create button has been clicked
+
+📒 - Created New Account is Auto Loan Accounttransmitter
+
+📒 - Verified the Newly created Account
+Actual title is Account Details | opentaps CRM
+
+Account names were entered to search...
+
+Find accounts button were clicked
+
+Viewed account 📒 is Auto Loan Accounttransmitter
+
+ ###########################################

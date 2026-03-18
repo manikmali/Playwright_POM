@@ -1,0 +1,21 @@
+
+ ###### Test - Login to TestLeaf and Create Account
+Login page has been skipped and session to be continued....
+Entered to home page to click CRM
+
+CRM link has been clicked from home page
+
+Account Create button has been clicked
+
+📒 - Created New Account is Investment Accountpixel
+
+📒 - Verified the Newly created Account
+Actual title is Account Details | opentaps CRM
+
+Account name -> Investment Accountpixel has been entered to search...
+
+Find accounts button were clicked
+
+Viewed account 📒 is Investment Accountpixel
+
+ ###########################################

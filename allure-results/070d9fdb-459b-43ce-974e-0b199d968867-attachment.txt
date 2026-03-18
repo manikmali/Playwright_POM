@@ -1,0 +1,9 @@
+
+ ###### Test - Verify the user able to find the existing account
+Actual title is Leaftaps - TestLeaf Automation Platform
+
+CRM link has been clicked from home page
+
+Account names were entered to search...
+
+Find accounts button were clicked
